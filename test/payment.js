@@ -19,7 +19,7 @@ describe('SDK', function () {
                 "funding_instruments": [{
                     "credit_card": {
                         "type": "visa",
-                        "number": "4417119669820331",
+                        "number": "4929885356182935", /*Many people got error when use CC number 4417119669820331 same error i have facing and when i change this number to 4929885356182935 its working fine.*/
                         "expire_month": "11",
                         "expire_year": "2018",
                         "cvv2": "874"
